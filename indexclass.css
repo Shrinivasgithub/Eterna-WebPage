@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/*Header starts */
+header{
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+ header .contact{
+    width: 400px;
+    display: flex;
+    padding: 10px;
+justify-content: space-around;
+margin-left: 100px;
+}
+.header-icons{
+    padding: 15px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+
+}
+.header-icons  i{
+   
+    margin-left: 20px;
+    color: lightgray;
+    
+}
+.mobile i{
+    margin-left: 10px;
+    color: red;
+}
+.contact i{
+    color: orangered;
+    font-size: 20px;
+}
+.header-icons i{
+margin-left: 15px;
+
+border-left: 1px solid gray;
+
+
+}
+/*Header ends */
+/* Navabar starts */
+nav{
+    background-color:rgba(255, 255, 255, 0.995);
+    padding: 20px  10px;
+position: sticky;
+top: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+}
+nav ul{
+    /* border: 2px solid red; */
+    margin: 20px;
+    display: inline;
+margin-left: 270px;
+}
+nav ul li{
+    display: inline;
+}
+.company-logo{
+    font-size: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.516);
+    border-left: 8px solid red;
+      padding-left: 8px;
+
+}
+nav ul li a{
+    color: rgba(0, 0, 0, 0.66);
+    margin-left: 37px;
+    text-decoration: none;
+    transition:colour 5s;
+    font-weight:bold;
+    font-size:15px;
+    font-family: calibri light;
+
+
+
+}
+nav ul li a:hover{
+color: red;
+    
+
+}
+
+/* Navabar ends  */
+/* banner starts */
+.banner{
+    height: 570px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.578),rgba(255, 255, 255, 0.59)) ,url("https://bootstrapmade.com/demo/templates/Eterna/assets/img/slide/slide-2.jpg");
+    background-repeat: no-repeat;
+    border-style: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.banner-content{
+    
+    width: 700px;
+    padding: 30px;
+    text-align: center;
+
+}
+.banner-content h1{
+    font-size: 45px;
+
+}
+.banner-content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 22px;
+    
+
+    
+
+}
+.banner-btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* banner ends  */
+/* cards started */
+.cards{
+   margin: 50px 80px;
+   display: flex;
+
+}
+.cards .card{
+    margin: 20px;
+    width: 450px;
+    height: 245px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 10px 3px lightgray;
+transition: all.6s;
+}
+.cards .card h3
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards .card p{
+    line-height: 23px;
+}
+.cards .card i{
+    font-size: 40px;
+    color: #e96b56;
+}
+.cards :hover{
+    background-color:#e96b56;
+    color: white;
+}
+ .cards .card:hover i{
+    color: white;
+}
+
+/* cards ended */
+/* volu starts */
+.volu
+{
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+.volu-text,.volu-img{
+    width: 700px;
+    margin: 20px;
+}
+.volu-img img{
+height: 100%;
+width: 100%;
+}
+
+ .volu-text h1{
+    font-size: 26px;
+    color:   gray;;
+    font-weight: 300;
+
+ }
+ .volu-text p {
+    margin-top: 20px;
+    margin-bottom: 23px;
+    line-height: 24px;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(37, 36, 36);
+    font-family: calibri light;
+ }
+ .volu-text  .para{
+    font-style: normal;
+
+ }
+ .volu-text ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: gray;
+ }
+ .volu-text ul li i{
+    font-size:21px;
+    color: #e96c56c6;
+ }
+/* volu ends */
+/* cards-two starts */
+.cards-two{
+    margin: 50px 80px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.cards-two .card{
+    border: 1px solid rgba(211, 211, 211, 0.484);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all .8s ;
+}
+.cards-two .card-content{
+    width: 350px;
+    text-align: center;
+}
+.cards-two .card-content h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.546);
+
+}
+.cards-two .card-content p{
+    line-height: 20px;
+    font-family: calbri light;
+    font-style: 17px;
+    color: rgba(128, 128, 128, 0.995);
+
+}
+.cards-two .card-content i{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    background-color: #e96b56;
+    border-radius: 10px;
+     padding: 20px;
+    padding-top: 23px;
+    box-shadow: -7px -7px  #e96c566b;
+}
+.cards-two .card:hover{
+    background-color: #e96b56;
+    
+}
+.cards-two .card:hover i{
+    background-color: white;
+    color: #e96b56;
+    box-shadow: -7px -7px  #e96c566b;
+}
+.cards-two .card:hover h2,.cards-two .card:hover p{
+    color: white;
+}
+/* cards-two ends */
+/* clients started */
+.clients{
+    margin: 50px 80px;
+    text-align: center;
+
+}
+.client-imges{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.client-imges img{
+    width: 110px;
+    height: 70px;
+    margin: 20px;
+    filter: grayscale(100);
+    
+}
+.clients h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.clients hr{
+    width: 50px;
+    height: 5px;
+    background-color: #e96b56;
+    align-items: center;
+    margin: 20px auto;
+    border: none;
+}
+.client-imges img:hover{
+   filter: none;
+}
+
+/* clients ended */
+/* footer starts */
+footer{
+    background-color:black;
+    color: white;
+    padding: 50px 80px;
+}
+footer section{
+    margin: 20px;
+}
+footer.input{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+footer .input div{
+    margin: 20px;
+    position: relative;
+    width: 600px;
+}
+footer .input div h1{
+    margin-bottom: 30px;
+}
+footer .input div input{
+    width: 100%;
+    padding: 17px 15px;
+    border-radius: 70px;
+}
+footer .input div button{
+    background-color:#e96b56;
+    color: white;
+    font-size: 20px;
+    font-family: calbri light;
+    border-radius: 70px;
+    padding: 8px 28px;
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    border: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+}
+.links div{
+    margin: 20px;
+    width: 450px;
+}
+.links div h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.links div ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.links div ul li i{
+    color: #e96b56;
+}
+footer .contact p{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+footer .icons p{
+    line-height: 25px;
+    font-family: calibri light;
+}
+footer .icons i
+{
+    margin-left: 10px;
+    background-color: rgba(211, 211, 211, 0.352);
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 25px;
+    transition:background-color .5s ;
+}
+footer .icons i:hover
+{
+    background-color: #e96b56;
+}
+.copyright p
+{
+    text-align: center;
+    line-height: 25px;
+    font-family: calibri light;
+
+}
+/* footer ends */
+/* Scroll arrow started */
+.scrollarrow{
+    background-color:#e96b56;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    
+}
+.scrollarrow a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Scroll arrow ends */
